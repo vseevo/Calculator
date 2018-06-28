@@ -1,0 +1,19 @@
+﻿<Window x:Class="Expressionsv1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Expressionsv1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="109*"/>
+            <ColumnDefinition Width="410*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="b0" Content="Click" HorizontalAlignment="Left" Margin="174.333,221,0,0" VerticalAlignment="Top" Width="75" Click="b0_Click" Grid.Column="1"/>
+        <TextBox x:Name="tB0" HorizontalAlignment="Left" Height="23" Margin="64,56,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="tB1" HorizontalAlignment="Left" Margin="64,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" AcceptsReturn="True" HorizontalScrollBarVisibility="Auto" ClipToBounds="True" Height="67" VerticalScrollBarVisibility="Auto" TextOptions.TextHintingMode="Animated" MinLines="2" Grid.ColumnSpan="2" MaxLines="8"/>
+
+    </Grid>
+</Window>
